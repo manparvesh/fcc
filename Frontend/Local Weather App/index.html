@@ -1,0 +1,45 @@
+<DOCTYPE !html>
+    <html>
+        <head>
+            <link href="css/bootstrap.min.css" rel="stylesheet" media="screen">
+            <link href="css/style.css" rel="stylesheet" media="screen">
+            <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/weather-icons/2.0.9/css/weather-icons.css" />
+        </head>
+        <body>
+            <div class="container-fluid">
+                <h1 class="text-primary text-center"><i class="wi wi-night-clear"></i> Weather <i class="wi wi-day-sleet-storm"></i></h1>
+
+                <div class="temperature text-center">
+                    <h1 id="weather-icons">
+                        <i class="wi"></i>
+                        <i class="wi"></i>
+                    </h1>
+
+                    <a id="tog">
+                        <h3>
+                            <span id="tempF">
+                              <span></span>
+                            <i class='wi wi-fahrenheit'></i>
+                            </span>
+                        </h3>
+
+                        <h3>
+                            <span id="tempC" class="hide">
+                              <span></span>
+                            <i class='wi wi-celsius'></i>
+                            </span>
+                        </h3>
+                    </a>
+
+                    <h3 id="description">desc</h3>
+                    <h3>at <span id="location"></span></h3>
+
+
+                </div>
+            </div>
+
+            <script src="http://code.jquery.com/jquery.js"></script>
+            <script src="js/bootstrap.min.js"></script>
+            <script src="js/script.js"></script>
+        </body>
+    </html>
